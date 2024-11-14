@@ -1,0 +1,130 @@
+body{
+    width: 100%;
+    height:100vh;
+    margin: 0%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 50px;
+    font-size: xx-large;
+    background-color: brown;
+    color:white;
+    word-spacing: 40px;
+    text-align: center;
+    margin:0%;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+.fa-solid{
+    color:white;
+    padding-right: 5px;
+}
+form{
+    width:400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 800px;
+    background-color:rgba(0,0,0,0.5);
+    margin-top: 50px;
+    color:white;
+    column-gap: 5px;
+    border: 2px solid wheat;
+}
+h1{
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    font-size:large;
+}
+button{
+    width: 300px;
+    height: 40px;
+    margin-top:25px;
+    border-radius:10px;
+    background-color:blueviolet;
+}
+
+
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    .main {
+        background-size: cover;
+        background-position: center;
+    }
+
+    header {
+        font-size: large;
+        padding-top: 5px;
+        word-spacing: 20px;
+        height: 40px;
+    }
+
+    form {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    label {
+        font-size: large;
+    }
+
+    input, button {
+        width: 100%;
+    }
+}
+
+/* Styles for tablets and small laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    form {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    label {
+        font-size: x-large;
+    }
+
+    input, button {
+        width: 80%;
+    }
+}
+
+
+
